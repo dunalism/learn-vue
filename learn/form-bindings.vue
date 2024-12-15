@@ -6,6 +6,6 @@ const text = ref("");
 
 <template>
   <input v-model="text" placeholder="Type here" />
-  <!-- v-model secara otomatis menyinkronkan nilai <input> dengan state terikat, jadi kita tidak perlu event handlers. -->
+  <!-- v-model secara otomatis menyinkronkan nilai <input> dengan state terkait, jadi kita tidak perlu event handlers. -->
   <p>{{ text }}</p>
 </template>
